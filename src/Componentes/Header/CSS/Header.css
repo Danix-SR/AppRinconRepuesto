@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 991px) {
+    .HideHeaderDesktop {
+        display: none !important;
+    }
+}
+#ButtonNavbar{
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0px !important;
+}
+
+.HeaderTopScreen {
+    font-size: 18px;
+    line-height: normal;
+    color: dimgrey;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.HeaderTopScreen:hover {
+    color: dimgrey;
+    text-decoration: underline;
+}
+
+
+.UbicacionGoogleMaps:before{
+    background-image: url("../../../Imagenes/Iconos SGV/Ubicacion SGV Google Maps.svg");
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content:"";
+}
