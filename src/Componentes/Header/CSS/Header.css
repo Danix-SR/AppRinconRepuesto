@@ -4,10 +4,11 @@
         display: none !important;
     }
 }
+
 #ButtonNavbar{
     width: 40px !important;
     height: 40px !important;
-    padding: 0px !important;
+    padding: 0 !important;
 }
 
 .HeaderTopScreen {
@@ -20,7 +21,7 @@
     display: block;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin: 0px;
+    margin: 0;
 }
 
 .HeaderTopScreen:hover {
